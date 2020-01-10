@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Card from './Card';
 import 'tachyons'; 
+import App from './App'
+
+
+// console.log(robots);
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Card />, document.getElementById('root'));
+ReactDOM.render( <App/> ,document.getElementById('root'));
 
