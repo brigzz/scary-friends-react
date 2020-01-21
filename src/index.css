@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'SegaFonts';
+  src: url('./SEGA.TTF') format('truetype');
+  }
+
+body {
+  background: rgb(84, 84, 87);
+  background: linear-gradient(
+    241deg,
+    rgba(84, 84, 87, 1) 0%,
+    rgba(216, 216, 217, 1) 50%,
+    rgba(68, 81, 84, 1) 100%
+  );
+  overflow: hidden;
+  padding: 1em;
+}
+
+div#root {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+div.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.clock {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(248, 177, 71);
+}
+
+h1.tc{
+  font-family: 'SegaFonts';
+  margin-top: 0;
+  color: rgb(18, 95, 126);
+  font-size: 3em;
+  font-weight: normal;
+}
