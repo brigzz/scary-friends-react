@@ -35,13 +35,14 @@ class App extends Component {
   };
 
   render() {
-    const filterRobots = this.state.robots.filter(robot => {
-      return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase());
+    const {robots, searchField} = this.state; 
+    const filterRobots = robots.filter(robot => {
+      return robot.name.toLowerCase().includes(searchField.toLowerCase());
     });
     console.log('render');
-    console.log(`Search for: ${this.state.searchField}`);
+    console.log(`Search for: ${searchField}`);
 
-    if (this.state.robots.length === 0) {
+    if (robots.length === 0) {
       return <h1 className='tc' style={{color: 'yellow', margin: '0 auto'}}>Loading...</h1>;
     } else {
       return (
