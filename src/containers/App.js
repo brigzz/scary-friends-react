@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Scroll from './Scroll';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import Clock from './Clock';
+import Scroll from '../components/Scroll';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Clock from '../components/Clock';
 
 class App extends Component {
   constructor() {
@@ -42,12 +42,12 @@ class App extends Component {
     console.log(`Search for: ${this.state.searchField}`);
 
     if (this.state.robots.length === 0) {
-      return <h1 className='tc' style={{color: 'yellow'}}>Loading...</h1>;
+      return <h1 className='tc' style={{color: 'yellow', margin: '0 auto'}}>Loading...</h1>;
     } else {
       return (
         <div>
           <Clock />
-          <h1 className="tc">Scary Friends</h1>
+          <h1 className="tc" style={{margin: '10px'}}>Scary Friends</h1>
           <SearchBox searchChange={this.onSearchChange} />
 
           <Scroll>
