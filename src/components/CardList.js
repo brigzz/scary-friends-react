@@ -3,6 +3,12 @@ import Card from './Card';
 
 class CardList extends Component {
   render() {
+
+    //For Testing componentDidCatch() in ErrorBoundary.js
+    // if (true) {
+    //   throw new Error('Errorrr.........');
+    // }
+
     return (
       <div className="card-list">
         {this.props.robots.map(item => (
