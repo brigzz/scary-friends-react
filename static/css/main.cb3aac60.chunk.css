@@ -1,0 +1,2 @@
+@font-face{font-family:SegaFonts;src:url(/scary-friends-react/static/media/SEGA.82e09f78.TTF) format("truetype")}body{background:#545457;background:linear-gradient(241deg,#545457,#d8d8d9 50%,#445154);overflow:hidden;padding:1em}div#root{margin:0 auto}div#root,div.card-list{display:flex;justify-content:space-around}div.card-list{flex-wrap:wrap}.clock{display:flex;justify-content:flex-end;color:#f8b147}h1.tc{font-family:SegaFonts;margin-top:0;color:#125f7e;font-size:3em;font-weight:400}
+/*# sourceMappingURL=main.cb3aac60.chunk.css.map */

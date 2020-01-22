@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/scary-friends-react/static/css/main.cb3aac60.chunk.css",
+    "main.js": "/scary-friends-react/static/js/main.2237b104.chunk.js",
+    "main.js.map": "/scary-friends-react/static/js/main.2237b104.chunk.js.map",
+    "runtime-main.js": "/scary-friends-react/static/js/runtime-main.5e35ac1a.js",
+    "runtime-main.js.map": "/scary-friends-react/static/js/runtime-main.5e35ac1a.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/scary-friends-react/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.25cf1031.chunk.js": "/scary-friends-react/static/js/2.25cf1031.chunk.js",
+    "static/js/2.25cf1031.chunk.js.map": "/scary-friends-react/static/js/2.25cf1031.chunk.js.map",
+    "index.html": "/scary-friends-react/index.html",
+    "precache-manifest.d4f21fa75c447d71d82fb91584c916c9.js": "/scary-friends-react/precache-manifest.d4f21fa75c447d71d82fb91584c916c9.js",
+    "service-worker.js": "/scary-friends-react/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/scary-friends-react/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.cb3aac60.chunk.css.map": "/scary-friends-react/static/css/main.cb3aac60.chunk.css.map",
+    "static/js/2.25cf1031.chunk.js.LICENSE": "/scary-friends-react/static/js/2.25cf1031.chunk.js.LICENSE",
+    "static/media/index.css": "/scary-friends-react/static/media/SEGA.82e09f78.TTF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e35ac1a.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.25cf1031.chunk.js",
+    "static/css/main.cb3aac60.chunk.css",
+    "static/js/main.2237b104.chunk.js"
+  ]
+}
